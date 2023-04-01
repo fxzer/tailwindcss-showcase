@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-[60px] flex items-center justify-between py-4 px-8 border-b border-slate-100 shadow-sm lignt:shadow-slate-300/10 bg-white dark:border-slate-300/10 supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75 dark:text-white"
+    class="w-full h-[60px] sticky top-0 z-40 left-0 backdrop-blur flex  items-center justify-between py-4 px-8 border-b border-slate-100 shadow-sm lignt:shadow-slate-300/10 bg-white/10 dark:border-slate-300/10 supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75 dark:text-white"
   >
     <div class="flex items-center">
       <NavLogo />
