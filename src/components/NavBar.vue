@@ -9,6 +9,7 @@
         >v3.5.1</span
       >
     </div>
+  <div class="flex divide-x ">
     <div class="text-sm text-slate-700 font-medium hidden md:flex ">
       <a
         href="#"
@@ -31,7 +32,7 @@
         >Playground</a
       >
     </div>
-    <div class="flex ">
+    <div class="flex mx-4 pl-4">
       <a
         href="#"
         class="px-2"
@@ -43,6 +44,7 @@
         ><GithubIcon />
       </a>
     </div>
+  </div>
   </div>
 </template>
 
