@@ -1,6 +1,6 @@
 <template>
   <li
-    class="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/60 dark:hover:bg-slate-800 rounded-2xl max-w-[24rem] p-[1rem] group transition-all duration-300  justify-self-center"
+    class="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/60 dark:hover:bg-slate-800 rounded-2xl min-w-full max-w-[24rem] p-[1rem] group transition-all duration-300  justify-self-center"
   >
     <div class="relative h-60 mb-6">
       <img :src="imgsrc" class="w-full h-full rounded-md" />

@@ -9,8 +9,9 @@
 <script setup lang="ts">
 import Banner from "./components/Banner.vue";
 import CaseItem from "./components/CaseItem.vue";
-import videoSrcList from './videos'
-import imgSrcList from './imgs'
+import videoSrcList from './mock/videos'
+import desList from "./mock/desList";
+import imgSrcList from './mock/imgs'
 interface CaseItem {
   imgsrc: string;
   title: string;
@@ -22,7 +23,7 @@ let  caseList  = videoSrcList.map((v,i) => {
   let title =  v.slice(43).split('.')[0]
   return {
     title ,
-    desc: title,
+    desc: desList[i],
     imgsrc:imgSrcList[i],
     video: v,
     link: '#',
