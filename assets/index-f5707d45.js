@@ -1,1 +1,0 @@
-import{_ as s,o as e,c as t,a as o}from"./index-92687042.js";const a={},c={class:"nationalparks"},n=o("h1",{class:"text-3xl"},"nationalparks works !!!",-1),r=[n];function _(i,d){return e(),t("div",c,r)}const f=s(a,[["render",_]]);export{f as default};

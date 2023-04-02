@@ -1,1 +1,0 @@
-import{_ as e,o as s,c,a as o}from"./index-92687042.js";const a={},t={class:"opalcamera"},r=o("h1",{class:"text-3xl"},"opalcamera works !!!",-1),_=[r];function n(d,l){return s(),c("div",t,_)}const f=e(a,[["render",n]]);export{f as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as o,a as t}from"./index-92687042.js";const c={},a={class:"algolia"},_=t("h1",{class:"text-3xl"},"algolia works !!!",-1),n=[_];function r(l,i){return s(),o("div",a,n)}const f=e(c,[["render",r]]);export{f as default};

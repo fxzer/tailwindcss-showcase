@@ -1,1 +1,0 @@
-import{_ as s,o as e,c,a as t}from"./index-92687042.js";const o={},a={class:"savvycal"},_=t("h1",{class:"text-3xl"},"savvycal works !!!",-1),n=[_];function r(d,l){return e(),c("div",a,n)}const f=s(o,[["render",r]]);export{f as default};

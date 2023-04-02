@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-869d2bb0.js";const o={},r={class:"grandleisure"},n=c("h1",{class:"text-3xl"},"grandleisure works !!!",-1),a=[n];function _(d,i){return s(),t("div",r,a)}const f=e(o,[["render",_]]);export{f as default};

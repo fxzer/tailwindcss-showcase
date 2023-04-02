@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,a as c}from"./index-92687042.js";const o={},n={class:"githubnext"},_=c("h1",{class:"text-3xl"},"githubnext works !!!",-1),a=[_];function r(i,d){return t(),s("div",n,a)}const h=e(o,[["render",r]]);export{h as default};

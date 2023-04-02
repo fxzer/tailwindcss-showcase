@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,a as c}from"./index-92687042.js";const o={},r={class:"theverge"},_=c("h1",{class:"text-3xl"},"theverge works !!!",-1),a=[_];function n(d,i){return s(),t("div",r,a)}const l=e(o,[["render",n]]);export{l as default};

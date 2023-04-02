@@ -1,1 +1,0 @@
-import{_ as s,o as e,c as o,a as t}from"./index-92687042.js";const c={},_={class:"shopify"},a=t("h1",{class:"text-3xl"},"shopify works !!!",-1),n=[a];function r(i,d){return e(),o("div",_,n)}const h=s(c,[["render",r]]);export{h as default};
