@@ -1,1 +1,0 @@
-import{_ as s,o as t,c as e,a as o}from"./index-4c355aa7.js";const c={},_={class:"spotlight"},a=o("h1",{class:"text-3xl"},"spotlight works !!!",-1),n=[a];function r(i,d){return t(),e("div",_,n)}const h=s(c,[["render",r]]);export{h as default};

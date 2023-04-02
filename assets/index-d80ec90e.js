@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./index-92687042.js";const c={},r={class:"turbo"},_=o("h1",{class:"text-3xl"},"turbo works !!!",-1),a=[_];function n(d,i){return s(),t("div",r,a)}const f=e(c,[["render",n]]);export{f as default};

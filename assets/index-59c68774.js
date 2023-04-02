@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,a as o}from"./index-4c355aa7.js";const c={},a={class:"wealthfront"},n=o("h1",{class:"text-3xl"},"wealthfront works !!!",-1),r=[n];function _(d,l){return t(),s("div",a,r)}const i=e(c,[["render",_]]);export{i as default};

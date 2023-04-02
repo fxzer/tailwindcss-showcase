@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as o,a as t}from"./index-4c355aa7.js";const c={},a={class:"openai"},n=t("h1",{class:"text-3xl"},"openai works !!!",-1),_=[n];function r(i,d){return s(),o("div",a,_)}const f=e(c,[["render",r]]);export{f as default};

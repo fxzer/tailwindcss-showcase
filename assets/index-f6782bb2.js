@@ -1,1 +1,0 @@
-import{_ as s,o as t,c as e,a as c}from"./index-4c355aa7.js";const o={},a={class:"transmit"},n=c("h1",{class:"text-3xl"},"transmit works !!!",-1),r=[n];function _(i,d){return t(),e("div",a,r)}const f=s(o,[["render",_]]);export{f as default};

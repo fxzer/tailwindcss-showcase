@@ -1,1 +1,0 @@
-import{_ as e,o as c,c as s,a as o}from"./index-4c355aa7.js";const t={},a={class:"candycode"},n=o("h1",{class:"text-3xl"},"candycode works !!!",-1),_=[n];function d(r,i){return c(),s("div",a,_)}const f=e(t,[["render",d]]);export{f as default};

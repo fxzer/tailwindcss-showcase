@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,a as c}from"./index-4c355aa7.js";const o={},n={class:"nytimes"},_=c("h1",{class:"text-3xl"},"nytimes works !!!",-1),a=[_];function r(i,d){return s(),t("div",n,a)}const f=e(o,[["render",r]]);export{f as default};
