@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./index-4c355aa7.js";const c={},r={class:"moderntreasury"},a=o("h1",{class:"text-3xl"},"moderntreasury works !!!",-1),n=[a];function _(d,i){return s(),t("div",r,n)}const f=e(c,[["render",_]]);export{f as default};
