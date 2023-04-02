@@ -6,7 +6,14 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      opacity: {
+        '50': '.50',
+      },
+      screens: {
+        'xs': '420px',
+      },
+    },
   },
   plugins: [],
 }

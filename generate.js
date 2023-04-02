@@ -50,6 +50,8 @@ const genateVueFile = (name) => {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(path.resolve(__dirname, `./src/templates/${name}`));
   }
+  fs.mkdirSync(path.resolve(__dirname, `./src/templates/${name}/components`))
+
   //创建文件 并写入内容
   fileSave(path.resolve(__dirname, `./src/templates/${name}/index.vue`)).write(
     template(name),
