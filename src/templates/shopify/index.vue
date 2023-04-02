@@ -1,12 +1,5 @@
 <template>
-
-<div>
- shopify work! 
-</div>
+   <div class="shopify">
+      <h1 class="text-3xl">shopify works !!!</h1>
+    </div>
 </template>
-<script setup lang='ts'>
-
-</script>
-<style scoped lang='scss'>
-
-</style>

@@ -1,6 +1,5 @@
 export default [
   "Marketing website & chat interface",
-  "SaaS application",
   "Ecommerce platform website",
   "Fintech marketing website",
   "Microsite website",
@@ -34,6 +33,5 @@ export default [
   "SaaS application",
   "Product marketing website",
   "Online marketplace",
-  "Info product website",
   "Productivity tool website",
 ]

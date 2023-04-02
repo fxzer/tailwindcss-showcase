@@ -1,6 +1,6 @@
 <template>
   <li
-    class="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/60 dark:hover:bg-slate-800 rounded-2xl min-w-full max-w-[24rem] p-[1rem] group transition-all duration-300  justify-self-center"
+    class="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800/60 dark:hover:bg-slate-800 rounded-2xl min-w-full max-w-[24rem] p-[1rem] group transition-all duration-300  justify-self-center" @click="clickHandler"
   >
     <div class="relative h-60 mb-6">
       <img :src="imgsrc" class="w-full h-full rounded-md" />
@@ -30,6 +30,7 @@
 </template>
 <script setup lang="ts">
 import Arrow from "./Arrow.vue";
+import { useRouter } from "vue-router";
 const props = defineProps<{
   imgsrc: string;
   video: string;
@@ -38,6 +39,12 @@ const props = defineProps<{
   link: string;
 }>();
 const { imgsrc, video, title, desc, link } = props;
+//跳转
+//拿到当前路由实例
+const router = useRouter();
+const clickHandler = () => {
+  router.push(link);
+};
 </script>
 <style scoped lang="scss">
 video {

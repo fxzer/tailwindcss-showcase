@@ -1,6 +1,5 @@
 export default [
   "https://tailwindcss.com/_next/static/media/openai.com.86b03227.png",
-  "https://tailwindcss.com/_next/static/media/app.lemonsqueezy.com.d4b9142d.png",
   "https://tailwindcss.com/_next/static/media/shopify.com.776c655e.png",
   "https://tailwindcss.com/_next/static/media/wealthfront.com.27ff17b3.png",
   "https://tailwindcss.com/_next/static/media/top10.netflix.com.49685c79.png",
@@ -21,7 +20,6 @@ export default [
   "https://tailwindcss.com/_next/static/media/mashable.com.b182b995.png",
   "https://tailwindcss.com/_next/static/media/dotnet.microsoft.com.62b23aa8.png",
   "https://tailwindcss.com/_next/static/media/spotlight.tailwindui.com.35ccf7e5.png",
-  "https://tailwindcss.com/_next/static/media/spotlight.tailwindui.com-dark.036f08e6.png",
   "https://tailwindcss.com/_next/static/media/clearbit.com.5f72d636.png",
   "https://tailwindcss.com/_next/static/media/getdizzie.com.dcea64b3.png",
   "https://tailwindcss.com/_next/static/media/keynote.tailwindui.com.4e3e01dd.png",
@@ -35,5 +33,4 @@ export default [
   "https://tailwindcss.com/_next/static/media/opalcamera.com.85f881db.png",
   "https://tailwindcss.com/_next/static/media/primer.tailwindui.com.073b0188.png",
   "https://tailwindcss.com/_next/static/media/spiegel.de.07a70d37.png",
-  "https://tailwindcss.com/_next/static/media/spiegel.de-dark.e1b86171.png"
 ] 

@@ -1,5 +1,11 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import ShowCase from "@/templates/showcase/index.vue";
+import caseRoutes from "./cases";
+// const caseRoutes = cases.map((v) =>   ({
+//   path: v.path,
+//   component: eval(v.component),
+// }))
+
 const routes = [
   {
     path: "/",
@@ -8,24 +14,13 @@ const routes = [
         path: "",
         component: ShowCase,
       },
-      {
-        path: "wealthfront",
-        component: () => import("@/templates/wealthfront/index.vue"),
-      },
-      {
-        path: "squeezy",
-        component: () => import("@/templates/squeezy/index.vue"),
-      },
-      {
-        path: "shopify",
-        component: () => import("@/templates/shopify/index.vue"),
-      },
+      ...caseRoutes,
     ],
   },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 

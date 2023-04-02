@@ -1,6 +1,5 @@
 export default [
   "https://tailwindcss.com/_next/static/media/openai.com.9bddbe2da26d9d4c750756b4076a424b.mp4",
-  "https://tailwindcss.com/_next/static/media/app.lemonsqueezy.com.c8ed68f7c047347801a187aa9b6119c3.mp4",
   "https://tailwindcss.com/_next/static/media/shopify.com.83eb6a2efb082bfdeb716e2ea5b77a68.mp4",
   "https://tailwindcss.com/_next/static/media/wealthfront.com.86974c8c5a9abbe0b1c796992b63bf25.mp4",
   "https://tailwindcss.com/_next/static/media/top10.netflix.com.2854f1e7c502f3d2f36d8274aaa0b134.mp4",
@@ -21,7 +20,6 @@ export default [
   "https://tailwindcss.com/_next/static/media/mashable.com.025658dd3fc729f29f25f0a9006e3d25.mp4",
   "https://tailwindcss.com/_next/static/media/dotnet.microsoft.com.2637df6dcd731faac58484aae8e26c93.mp4",
   "https://tailwindcss.com/_next/static/media/spotlight.tailwindui.com.4ce033e5645807b10e5ea8baa099af0e.mp4",
-  "https://tailwindcss.com/_next/static/media/spotlight.tailwindui.com-dark.3b980ffd0a1d2e39e3db4d8606abe22c.mp4",
   "https://tailwindcss.com/_next/static/media/clearbit.com.4d57e47ec76ac27a4d6252af46c52fca.mp4",
   "https://tailwindcss.com/_next/static/media/getdizzie.com.84185d1dbdd48907fd78252784afa559.mp4",
   "https://tailwindcss.com/_next/static/media/keynote.tailwindui.com.c6d50bb36df6802a86d0584b9123e61f.mp4",
@@ -35,5 +33,4 @@ export default [
   "https://tailwindcss.com/_next/static/media/opalcamera.com.e3012a5c7084f0f812812078ce1d4a6a.mp4",
   "https://tailwindcss.com/_next/static/media/primer.tailwindui.com.86fc8d57e38e38a7e433900fa07343da.mp4",
   "https://tailwindcss.com/_next/static/media/spiegel.de.6d64f266c2fe2537c8e3b4663d3f6cb2.mp4",
-  "https://tailwindcss.com/_next/static/media/spiegel.de-dark.d8c034b6e7e3b2e0baba15d4a1fbf584.mp4"
 ] as String[]

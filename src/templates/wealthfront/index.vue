@@ -1,12 +1,5 @@
 <template>
-
-  <div>
-   wealthfront work! 
-  </div>
-  </template>
-  <script setup lang='ts'>
-  
-  </script>
-  <style scoped lang='scss'>
-  
-  </style>
+   <div class="wealthfront">
+      <h1 class="text-3xl">wealthfront works !!!</h1>
+    </div>
+</template>
