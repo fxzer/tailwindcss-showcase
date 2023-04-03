@@ -1,6 +1,6 @@
 <template>
-  <div class="home-content bg-black text-white divide-y">
-    <div class="list-mixed py-8 px-4">
+  <div class="home-content bg-black text-white divide-y pb-16 px-4">
+    <div class="list-mixed py-8 ">
       <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <li class="mb-6 p-4 hover:bg-gray-900/90" v-for="{ title,desc } in mixedList">
           <h2 class="text-xl font-mono font-semibold mb-3">
@@ -14,7 +14,7 @@
     </div>
 
     <!-- 新特性 -->
-    <div class="list-feature grid py-8 p-4 grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="list-feature grid py-8 grid-cols-1 md:grid-cols-2 gap-4">
       <img
         class="w-full ratio ratio-1x1"
         src="https://openaicom.imgix.net/8d14e8f0-e267-4b8b-a9f2-a79120808f5a/chatgpt.jpg?fm=auto&auto=compress,format&fit=min&rect=0,0,2048,2048&w=1919&h=1919"
@@ -37,7 +37,7 @@
       </div>
     </div>
     <!-- 最近更新 -->
-    <div class="list-latest-update p-4">
+    <div class="list-latest-update py-4">
       <h2 class="text-3xl mb-4 font-sans flex justify-between items-center">
         Latest updates
         <a href="" class="text-xl border-b-hover">
@@ -53,6 +53,12 @@
           </a>
         </li>
       </ul>
+    </div>
+
+    <!-- join us -->
+    <div class="join-us py-4 space-y-6">
+      <h1 class="text-4xl md:text-6xl font-serif  leading-relaxed  font-light">Join us in shaping the future of technology.</h1>
+      <button class="text-4xl border w-full text-center py-4 hover:bg-white hover:text-black">View careers</button>
     </div>
   </div>
 </template>
