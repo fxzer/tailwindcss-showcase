@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as c}from"./index-a026aacf.js";const o={},a={class:"planetscale"},n=c("h1",{class:"text-3xl"},"planetscale works !!!",-1),_=[n];function r(l,d){return s(),t("div",a,_)}const f=e(o,[["render",r]]);export{f as default};

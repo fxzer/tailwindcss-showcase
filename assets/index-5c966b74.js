@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-58320424.js";const o={},a={class:"feastables"},_=c("h1",{class:"text-3xl"},"feastables works !!!",-1),n=[_];function r(d,l){return s(),t("div",a,n)}const i=e(o,[["render",r]]);export{i as default};

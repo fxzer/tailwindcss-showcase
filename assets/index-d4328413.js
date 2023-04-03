@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-58320424.js";const o={},_={class:"jpl"},n=c("h1",{class:"text-3xl"},"jpl works !!!",-1),a=[n];function r(d,l){return s(),t("div",_,a)}const f=e(o,[["render",r]]);export{f as default};

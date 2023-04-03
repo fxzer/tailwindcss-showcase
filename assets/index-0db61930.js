@@ -1,0 +1,1 @@
+import{_ as e,o,c as s,e as t}from"./index-58320424.js";const c={},_={class:"loom"},n=t("h1",{class:"text-3xl"},"loom works !!!",-1),a=[n];function r(d,l){return o(),s("div",_,a)}const f=e(c,[["render",r]]);export{f as default};
