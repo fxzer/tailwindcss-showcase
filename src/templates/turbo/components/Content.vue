@@ -49,7 +49,7 @@
       <img class="px-8" src="https://turbo.build/images/logos/white/disney.svg" />
       <img class="px-8" src="https://turbo.build/images/logos/white/netflix.svg" />
       <img class="px-8" src="https://turbo.build/images/logos/white/aws.svg" />
-      <img class="px-8" src="	https://turbo.build/images/logos/white/adobe.svg" />
+      <img class="px-8" src="https://turbo.build/images/logos/white/adobe.svg" />
     </div>
   </div>
 </template>
