@@ -4,3 +4,9 @@
 html,body{
   height:100vh;
 }
+
+@layer components {
+  .border-b-hover {
+    @apply  hover:border-slate-400 border-b border-white;
+  }
+}
