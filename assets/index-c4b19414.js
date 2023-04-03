@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as c}from"./index-bdfecaf7.js";const o={},n={class:"keepgrading"},a=c("h1",{class:"text-3xl"},"keepgrading works !!!",-1),r=[a];function _(d,i){return s(),t("div",n,r)}const f=e(o,[["render",_]]);export{f as default};

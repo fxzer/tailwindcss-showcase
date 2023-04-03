@@ -1,0 +1,1 @@
+import{_ as e,o as s,c,e as o}from"./index-a026aacf.js";const t={},a={class:"laracon"},n=o("h1",{class:"text-3xl"},"laracon works !!!",-1),r=[n];function _(d,l){return s(),c("div",a,r)}const f=e(t,[["render",_]]);export{f as default};
