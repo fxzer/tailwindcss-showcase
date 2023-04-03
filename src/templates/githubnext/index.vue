@@ -76,7 +76,7 @@
         <div
           class="h-96 w-96 right-24 top-24  from-[#ff595c] via-[#70cbff] to-[#65ffa5] absolute bg-gradient-to-tr opacity-[0.4] blur-[100px]"
         ></div>
-        <div class="members grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto gap-12 w-full my-8">
+        <div class="members grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto gap-12 w-full my-8">
          <Member v-for="member in members" v-bind="member"/>
         </div>
       </div>
