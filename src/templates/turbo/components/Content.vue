@@ -13,25 +13,27 @@
       class="container grid grid-cols-1 lg:grid-cols-2 pt-6 justify-center mx-auto justify-items-center gap-8"
     >
       <div
-        class="w-[24rem] md:w-[30rem] h-[21rem] border border-gray-700/50 rounded-lg flex flex-col justify-center items-center"
+        class="card"
       >
         <img
           src="https://turbo.build/images/docs/repo/repo-hero-logo-dark.svg"
           alt=""
         />
+        <div class="card-grident from-[#FF3358] to-[#FF4FD8]"></div>
         <RepoText class="mt-10 mb-4" />
         <p class="text-center text-lg text-gray-400/90 w-[280px] md:w-[340px]">
           High-performance build system for JavaScript and TypeScript codebases.
         </p>
       </div>
       <div
-        class="w-[24rem] md:w-[30rem] h-[21rem] border border-gray-700/50 rounded-lg flex flex-col justify-center items-center"
+        class="card"
       >
         <img
           class="h-24 w-24"
           src="https://turbo.build/images/docs/pack/turbopack-hero-logo-dark.svg"
           alt=""
         />
+        <div class=" card-grident from-[#4EBFFF] to-[#BD69FF] "></div>
         <PackText class="mt-10 mb-4" />
         <p class="text-center text-lg text-gray-400/90 w-[280px] md:w-[340px]">
           High-performance build system for JavaScript and TypeScript codebases.
@@ -55,4 +57,6 @@
 import RepoText from "./RepoText.vue";
 import PackText from "./PackText.vue";
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import url(../style/home.css);
+</style>
