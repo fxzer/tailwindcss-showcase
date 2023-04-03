@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,e as o}from"./index-908f7604.js";const c={},n={class:"dotnet"},_=o("h1",{class:"text-3xl"},"dotnet works !!!",-1),a=[_];function r(d,i){return t(),s("div",n,a)}const f=e(c,[["render",r]]);export{f as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as o}from"./index-908f7604.js";const c={},r={class:"moderntreasury"},n=o("h1",{class:"text-3xl"},"moderntreasury works !!!",-1),a=[n];function _(d,i){return s(),t("div",r,a)}const f=e(c,[["render",_]]);export{f as default};

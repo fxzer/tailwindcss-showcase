@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-bdfecaf7.js";const o={},_={class:"spiegel"},n=c("h1",{class:"text-3xl"},"spiegel works !!!",-1),a=[n];function r(i,d){return s(),t("div",_,a)}const f=e(o,[["render",r]]);export{f as default};

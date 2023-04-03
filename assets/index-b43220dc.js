@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as o}from"./index-908f7604.js";const c={},n={class:"keynote"},_=o("h1",{class:"text-3xl"},"keynote works !!!",-1),a=[_];function r(d,i){return s(),t("div",n,a)}const f=e(c,[["render",r]]);export{f as default};
