@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as o}from"./index-875bd84b.js";const c={},_={class:"top10"},n=o("h1",{class:"text-3xl"},"top10 works !!!",-1),a=[n];function r(d,i){return s(),t("div",_,a)}const f=e(c,[["render",r]]);export{f as default};

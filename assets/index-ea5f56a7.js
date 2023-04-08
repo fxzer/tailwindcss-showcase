@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as c}from"./index-875bd84b.js";const o={},_={class:"getdizzie"},n=c("h1",{class:"text-3xl"},"getdizzie works !!!",-1),a=[n];function r(i,d){return s(),t("div",_,a)}const f=e(o,[["render",r]]);export{f as default};
