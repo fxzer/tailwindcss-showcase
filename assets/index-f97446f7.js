@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-875bd84b.js";const o={},n={class:"wander"},a=c("h1",{class:"text-3xl"},"wander works !!!",-1),r=[a];function _(d,i){return s(),t("div",n,r)}const f=e(o,[["render",_]]);export{f as default};

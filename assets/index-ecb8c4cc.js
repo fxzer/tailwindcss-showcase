@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-875bd84b.js";const o={},n={class:"salient"},a=c("h1",{class:"text-3xl"},"salient works !!!",-1),_=[a];function r(i,d){return s(),t("div",n,_)}const f=e(o,[["render",r]]);export{f as default};

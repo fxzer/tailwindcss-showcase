@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,e as c}from"./index-b1418c37.js";const o={},a={class:"mashable"},_=c("h1",{class:"text-3xl"},"mashable works !!!",-1),n=[_];function r(d,l){return s(),t("div",a,n)}const h=e(o,[["render",r]]);export{h as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as s,c,e as o}from"./index-b1418c37.js";const t={},n={class:"column"},_=o("h1",{class:"text-3xl"},"column works !!!",-1),a=[_];function r(d,l){return s(),c("div",n,a)}const f=e(t,[["render",r]]);export{f as default};
