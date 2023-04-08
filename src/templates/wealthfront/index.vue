@@ -1,7 +1,7 @@
 <template>
-  <div class="wealthfront bg-slate-950">
+  <div class="w-full wealthfront bg-slate-950">
     <header
-      class="h-16 w-full backdrop-blur text-white flex items-center justify-between px-6 sm:px-10 border-b border-slate-800 lg:px-16 shadow-sm fixed"
+      class="h-16  w-screen   backdrop-blur text-white flex items-center justify-between px-6 sm:px-10 border-b border-slate-800 lg:px-16 shadow-sm fixed"
     >
       <div class="text-4xl flex items-center space-x-2">
         <svg
@@ -64,14 +64,14 @@
         <span class="bg-white rounded-full inline-block w-full h-[4px]"></span>
       </div>
     </header>
-    <div class="pt-40 text-white text-4xl font-bold text-center">
-      <p class="py-16">
+    <div class="pt-40  text-white text-4xl font-bold text-center">
+       <p class="py-16">
         <a
           class="text-slate-500 rounded-lg border border-gray-500 px-3 py-2 text-lg hover:border-gray-300 hover:text-gray-300"
           >Merlin for Marketers</a
         >
-      </p>
-      <div
+      </p> 
+       <div
         class="mx-auto px-4 md:px-0 md:max-w-[750px] font-sans text-4xl md:text-5xl lg:text-6xl font-bold leading-snug"
       >
         <p>Ctrl/⌘+M to create</p>
@@ -81,8 +81,8 @@
           ~25X cheaper than Jasper and other AI writing tools for the same
           number of words
         </p>
-      </div>
-      <p
+      </div> 
+       <p
         class="inline-block align-middle p-[2px] bg-gradient-to-r hover:bg-gradient-to-l from-[#921dfb]/50 via-[#F334F2] to-[#ff0082]/50 rounded-lg"
       >
         <a
@@ -154,8 +154,8 @@
           </svg>
           <span class="text-xl"> Add To Chrome</span>
         </a>
-      </p>
-      <div
+      </p> 
+       <div
         class="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg font-normal py-12 px-4 container mx-auto"
       >
         <div
@@ -173,16 +173,16 @@
         >
           ✅ Generate blogs on trending topics in your niche
         </div>
-      </div>
-      <div class="my-12">Why over 400K users choose us?</div>
-      <div class="grid grid-cols-3 gap-4 container mx-auto">
+      </div> 
+       <div class="my-12">Why over 400K users choose us?</div>
+      <div class="grid grid-cols-3 gap-4  container mx-auto  ">
         <div>
           <h2
             class="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-[#921dfb]/50 via-[#F334F2] to-[#ff0082]/50"
           >
             90%
           </h2>
-          <p class="text-base font-normal px-16 mt-2">
+          <p class="text-base font-normal   mt-2">
             Better UX to use ChatGPT for content on any website
           </p>
         </div>
@@ -192,7 +192,7 @@
           >
             100%
           </h2>
-          <p class="text-base font-normal px-16 mt-2">
+          <p class="text-base font-normal  mt-2">
             Better UX to use ChatGPT for content on any website
           </p>
         </div>
@@ -202,13 +202,13 @@
           >
             98%
           </h2>
-          <p class="text-base font-normal px-16 mt-2">
+          <p class="text-base font-normal mt-2">
             Better UX to use ChatGPT for content on any website
           </p>
         </div>
-      </div>
+      </div> 
 
-      <div class="px-8 lg:px-40">
+       <div class="px-4 sm:px-8 lg:px-40">
         <p class="text-5xl my-20">Try these 25+ free Marketing prompts</p>
         <div
           class="w-full bg-gradient-to-r hover:bg-gradient-to-l from-[#921dfb]/50 via-[#F334F2] to-[#ff0082]/50 p-[2px] rounded-2xl"
@@ -434,19 +434,17 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container mx-auto">
+      </div> 
+       <div class="container mx-auto">
         <Logos />
-      </div>
+      </div> 
       <div
-        class="relative border-y border-slate-700 px-20 py-10 bg-slate-900/50 flex justify-around flex-col md:flex-row md:justify-center"
+        class="relative border-y border-slate-700 px-4 lg:px-20 py-10 bg-slate-900/50  flex justify-around flex-col md:flex-row md:justify-around"
       >
-        <svg
-          width="445"
-          height="331"
+         <svg
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="absolute bottom-0 left-0 h-full pointer-events-none z-10"
+          class="absolute top-0 left-0  h-full w-full pointer-events-none z-10"
         >
           <g
             style="mix-blend-mode: hard-light"
@@ -492,8 +490,8 @@
               ></feGaussianBlur>
             </filter>
           </defs>
-        </svg>
-       <div class="w-full md:w-60  md:text-start ">
+        </svg> 
+       <div class="w-full md:w-80  md:text-start ">
         <div class="text-4xl flex items-center space-x-2  ">
           <svg
             viewBox="0 0 90 90"
@@ -535,7 +533,7 @@
         </div>
         <p class="text-xl font-normal text-start mt-4 z-50 ">Open AI’s ChatGPT powered extension to use anywhere!</p>
        </div>
-       <ul class="grid grid-cols-1 md:grid-cols-3 gap-8 text-base font-normal">
+       <ul class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 mt-10 md:mt-0 text-base font-normal">
         <li>Write for us</li>
         <li>Write for us</li>
         <li>Write for us</li>
@@ -551,7 +549,6 @@
        </ul>
       </div>
     </div>
-    <div class="h-screen"></div>
   </div>
 </template>
 <script lang="ts" setup>
