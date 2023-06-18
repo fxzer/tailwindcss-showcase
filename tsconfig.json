@@ -21,5 +21,5 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "auto-imports.d.ts" //方案一: 解决 '找不到名称“Elxxx”' 报错
-, "src/router/cases.js", "src/router/cases.js", "src/router/index.js", "src/router/index.js"  ]
+,    "src/router/cases.js", "src/router/cases.js", "src/router/index.js", "src/router/index.js"  ]
 }

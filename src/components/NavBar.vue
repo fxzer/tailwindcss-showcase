@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div  ref="navRef"
     class="w-full h-[60px] sticky top-0 z-40 left-0 backdrop-blur flex  items-center justify-between py-4 px-8 border-b border-slate-100 shadow-sm lignt:shadow-slate-300/10 bg-white/10 dark:border-slate-300/10 supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75 dark:text-white"
   >
     <div class="flex items-center">
@@ -49,11 +49,12 @@
 </template>
 
 <script setup lang="ts">
+import { gsap   } from "gsap";
 import NavLogo from "./NavLogo.vue";
 import DarkIcon from "./DarkIcon.vue";
 import LightIcon from "./LightIcon.vue";
 import GithubIcon from "./GithubIcon.vue";
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
 const isDark = ref(false);
 const toggleTheme = () => {
   isDark.value = !isDark.value;
@@ -63,4 +64,13 @@ const toggleTheme = () => {
     document.documentElement.classList.remove("dark");
   }
 };
+const navRef = ref(null);
+onMounted(() => {
+  gsap.from(navRef.value, {
+    duration: 1,
+    yPercent: '-100',
+    opacity: 0,
+    ease: "power4.out",
+  })
+})
 </script>

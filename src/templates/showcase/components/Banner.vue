@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-20  bg-[url(@/assets/img/banner-bg.jpg)] dark:bg-[url(@/assets/img/banner-bg-dark.jpg)] bg-cover sm:bg-contain  ">
+  <div ref="bannerRef" class="pt-20  bg-[url(@/assets/img/banner-bg.jpg)] dark:bg-[url(@/assets/img/banner-bg-dark.jpg)] bg-cover sm:bg-contain  ">
     <div class="max-w-3xl  mx-auto  px-4 lg:px-8 ">
       <h1 class="text-sky-400 text-center leading-6">Showcase</h1>
      <p class="my-6 text-6xl font-bold text-center dark:text-gray-200">You can build anything with Tailwind CSS.</p>
@@ -7,3 +7,14 @@
     </div>
   </div>
 </template>
+<script setup >
+import { gsap } from "gsap";
+import { onMounted, ref } from "vue";
+const bannerRef = ref(null);
+onMounted(() => {
+  gsap.from(
+    bannerRef.value,
+    { opacity: 0, y: -200 },
+  );
+})
+</script>
