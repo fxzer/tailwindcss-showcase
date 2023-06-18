@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,e as c}from"./index-686a89f3.js";const o={},a={class:"clearbit"},r=c("h1",{class:"text-3xl"},"clearbit works !!!",-1),_=[r];function n(i,d){return s(),t("div",a,_)}const f=e(o,[["render",n]]);export{f as default};
